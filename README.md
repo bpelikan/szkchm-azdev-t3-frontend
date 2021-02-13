@@ -1,3 +1,16 @@
+
+
+> [Base project](https://github.com/AzureDevelopment/m02-frontend)
+
+```
+npm start
+npm run-script build
+# publish do Web App folderu build
+```
+* Dla App Service na Linuxie potrzebna jest komenda startowa: `pm2 serve /home/site/wwwroot --no-daemon --spa` (https://youtu.be/HLhlKIIfaZs?t=122)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

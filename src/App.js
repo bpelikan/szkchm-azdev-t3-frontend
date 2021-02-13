@@ -6,7 +6,7 @@ class App extends React.Component {
     state = { user: { firstName: '', lastName: '' } };
 
     componentDidMount() {
-        fetch('https://app-dev-tyg-2.azurewebsites.net/users/?id=1')
+        fetch('https://app-azdev-back-t2.azurewebsites.net/users/?id=1')
             .then((res) => res.json())
             .then((user) => {
                 this.setState({
